@@ -1,0 +1,460 @@
+{
+  "data": {
+    "feederPGex": {
+      "nodes": [
+        {
+          "transaction_id": "1a71d656-431c-4c76-8afa-f72ff5b63f37",
+          "id": "afd8bad6-a882-4346-8fdd-4e63780ff38f",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "2addcfac-5a94-46c8-9bb5-38d1313c90c6",
+            "feeder_status": "In Progress",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "b6d8d292-6f38-4700-b658-5917887f20ea",
+                "item_name": "BCR-ABL Quantitative KALDx",
+                "__typename": "transactionTest"
+              },
+              {
+                "id": "92227b6b-1617-4f8e-906b-ded27f3d6802",
+                "item_name": "p16 KALDx",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": null,
+            "kalgenId": "C2503D0000022",
+            "patient": {
+              "id": "fffdf567-150c-44ae-8868-2c7b8f8e6a0f",
+              "name": "Tjoa Nani",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": null,
+              "birthdate": "2010-01-01",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "ffaf9fb0-aa34-446b-8690-26e4c233e499",
+              "customer_name": "Insta Beauty Center (Klinik Utama Insta Beauty)",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-03-11T07:59:00.527Z",
+          "__typename": "pGex"
+        },
+        {
+          "transaction_id": "51b1b882-b005-4982-aaed-2213bca2def9",
+          "id": "2fe34614-bdbf-41b2-8253-07f841ba83eb",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "a94c516b-fbad-40c9-9dc0-26963ce5ae9d",
+            "feeder_status": "In Progress",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "5aa1cea2-19a7-4748-967a-0bed79db4734",
+                "item_name": "BCR-ABL Quantitative KALDx",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": null,
+            "kalgenId": "A2503D0000104",
+            "patient": {
+              "id": "fffdf567-150c-44ae-8868-2c7b8f8e6a0f",
+              "name": "Tjoa Nani",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": null,
+              "birthdate": "2010-01-01",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "ffdecf2d-3071-4614-85ff-6ad8a081e3ed",
+              "customer_name": "Klinik dr. Sanders",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-03-11T05:07:03.187Z",
+          "__typename": "pGex"
+        },
+        {
+          "transaction_id": "9902e404-d146-43de-95e5-07ba57a9aae6",
+          "id": "8bfd357e-a81f-495e-abff-0656a07eafad",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "a94c516b-fbad-40c9-9dc0-26963ce5ae9d",
+            "feeder_status": "In Progress",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "5888bced-6dca-4276-ac7a-e5f9d12fb8b7",
+                "item_name": "BCR-ABL Quantitative KALDx",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": null,
+            "kalgenId": "A2503D0000103",
+            "patient": {
+              "id": "fffe0cf8-f8c6-4ccc-a9dc-d2534c14a20f",
+              "name": "Mariska subandono",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": null,
+              "birthdate": "1992-06-04",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "fff5b996-1180-4fb1-b0b4-e87efbcf8709",
+              "customer_name": "RSUD H. Abdul Manap",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-03-11T04:42:28.886Z",
+          "__typename": "pGex"
+        },
+        {
+          "transaction_id": "24c40768-00e5-49ea-b54e-11f2c7913c52",
+          "id": "d176b65c-3824-4ecf-a864-b0bdc384e5f5",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "bc2a23b0-76a0-42de-ab9b-9fb4d0e9acb6",
+            "feeder_status": "Approved",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "7a15fb79-5a92-4480-a052-ed42d5617de5",
+                "item_name": "DPYD Full Gene Sequencing",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": {
+              "id": "6ad013a7-cf0c-4c22-8bab-a579ecff7be9",
+              "profiles": [
+                {
+                  "fullname": "1st Approver",
+                  "__typename": "Profile"
+                }
+              ],
+              "signatures": [],
+              "__typename": "User"
+            },
+            "kalgenId": "B2503D0000020",
+            "patient": {
+              "id": "fffe0cf8-f8c6-4ccc-a9dc-d2534c14a20f",
+              "name": "Mariska subandono",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": null,
+              "birthdate": "1992-06-04",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "ffdecf2d-3071-4614-85ff-6ad8a081e3ed",
+              "customer_name": "Klinik dr. Sanders",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-03-10T03:52:54.477Z",
+          "__typename": "pGex"
+        },
+        {
+          "transaction_id": "b8da099f-8fb9-4767-a533-6b2c949a245b",
+          "id": "48ea0a10-3075-4d10-8fe9-f42e7cc8a37a",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "a94c516b-fbad-40c9-9dc0-26963ce5ae9d",
+            "feeder_status": "Approved",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "3b4b0a97-9a92-4393-a72f-59325457aa56",
+                "item_name": "p53 KALDx",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": {
+              "id": "6ad013a7-cf0c-4c22-8bab-a579ecff7be9",
+              "profiles": [
+                {
+                  "fullname": "1st Approver",
+                  "__typename": "Profile"
+                }
+              ],
+              "signatures": [],
+              "__typename": "User"
+            },
+            "kalgenId": "A2503D0000102",
+            "patient": {
+              "id": "ffffe0e0-4acf-44da-bb2e-17ab42aa7985",
+              "name": "Sanny Gunawan",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": "Kp. Cigombong No. 64 RT. 01/09, Desa Ciberang, Pacet Cianjur",
+              "birthdate": "2010-01-01",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "fff5b996-1180-4fb1-b0b4-e87efbcf8709",
+              "customer_name": "RSUD H. Abdul Manap",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-03-08T06:24:43.172Z",
+          "__typename": "pGex"
+        },
+        {
+          "transaction_id": "92c6c53d-59bf-428b-a3e4-1f8c497e76ae",
+          "id": "c4c628b2-322b-40f7-ab89-f8883de6197f",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "a94c516b-fbad-40c9-9dc0-26963ce5ae9d",
+            "feeder_status": "Approved",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "5cf7f026-a16b-42b4-953e-28d85f775585",
+                "item_name": "CD20, CD3, CD45, Ki67",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": {
+              "id": "6ad013a7-cf0c-4c22-8bab-a579ecff7be9",
+              "profiles": [
+                {
+                  "fullname": "1st Approver",
+                  "__typename": "Profile"
+                }
+              ],
+              "signatures": [],
+              "__typename": "User"
+            },
+            "kalgenId": "A2503D0000101",
+            "patient": {
+              "id": "fffcfc2b-3963-4c26-a670-49b116d4e361",
+              "name": "Ana Suzana",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": null,
+              "birthdate": "1978-04-13",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "ffafa286-aa26-4560-9959-07f963982b79",
+              "customer_name": "Klinik Keluarga Cianjur",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-03-03T09:55:55.000Z",
+          "__typename": "pGex"
+        },
+        {
+          "transaction_id": "70a6a099-e4b6-4fb9-b83e-494247c180dd",
+          "id": "231390de-74a6-4d59-83a6-5aef98ca3f30",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "a94c516b-fbad-40c9-9dc0-26963ce5ae9d",
+            "feeder_status": "Approved",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "53029bc8-d17d-430b-83f2-23f49f22dd27",
+                "item_name": "CD20 KALDx",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": {
+              "id": "6ad013a7-cf0c-4c22-8bab-a579ecff7be9",
+              "profiles": [
+                {
+                  "fullname": "1st Approver",
+                  "__typename": "Profile"
+                }
+              ],
+              "signatures": [],
+              "__typename": "User"
+            },
+            "kalgenId": "A2502D0000100",
+            "patient": {
+              "id": "fffc3bce-1a33-45db-98ad-7303701ba059",
+              "name": "Ie Angelina Budiman",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": null,
+              "birthdate": "2010-02-18",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "ffaf9fb0-aa34-446b-8690-26e4c233e499",
+              "customer_name": "Insta Beauty Center (Klinik Utama Insta Beauty)",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-02-28T08:43:56.584Z",
+          "__typename": "pGex"
+        },
+        {
+          "transaction_id": "95b5d09e-489c-4e1a-b3e8-242a9db3172f",
+          "id": "1925537c-891d-4c52-a456-30042f63c720",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "a94c516b-fbad-40c9-9dc0-26963ce5ae9d",
+            "feeder_status": "Approved",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "b4b1cf60-4c6d-42e7-bdbb-7a0f547fab62",
+                "item_name": "KAL-Onco Lymphoma 4 (CD20, CD3, CD45, Ki67)",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": {
+              "id": "6ad013a7-cf0c-4c22-8bab-a579ecff7be9",
+              "profiles": [
+                {
+                  "fullname": "1st Approver",
+                  "__typename": "Profile"
+                }
+              ],
+              "signatures": [],
+              "__typename": "User"
+            },
+            "kalgenId": "A2502D0000099",
+            "patient": {
+              "id": "fffe0cf8-f8c6-4ccc-a9dc-d2534c14a20f",
+              "name": "Mariska subandono",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": null,
+              "birthdate": "1992-06-04",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "fff5b996-1180-4fb1-b0b4-e87efbcf8709",
+              "customer_name": "RSUD H. Abdul Manap",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-02-28T03:04:49.461Z",
+          "__typename": "pGex"
+        },
+        {
+          "transaction_id": "a0413db4-8f1a-4694-bcc1-bc4cd84700fd",
+          "id": "9bae83f3-f706-45be-a14b-c2bf90f19f64",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "a94c516b-fbad-40c9-9dc0-26963ce5ae9d",
+            "feeder_status": "In Progress",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "6ad26fb5-cfde-460b-8c24-60565aca160e",
+                "item_name": "EGFR (Exon 18-21) Mutation KALDx",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": null,
+            "kalgenId": "A2502D0000098",
+            "patient": {
+              "id": "fffdf567-150c-44ae-8868-2c7b8f8e6a0f",
+              "name": "Tjoa Nani",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": null,
+              "birthdate": "2010-01-01",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "9dce4496-ad25-4378-8820-58dc6093d6a3",
+              "customer_name": "RSUD H. Abdul Manap",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-02-26T09:11:38.136Z",
+          "__typename": "pGex"
+        },
+        {
+          "transaction_id": "1d8b7c05-12d4-407d-be6f-9e206879e4a2",
+          "id": "cd744dfa-3107-494b-afb9-7ba379154005",
+          "slide_only": false,
+          "transaction": {
+            "branchLocId": "a94c516b-fbad-40c9-9dc0-26963ce5ae9d",
+            "feeder_status": "Approved",
+            "result_status": "In Progress",
+            "getTests": [
+              {
+                "id": "c01f03d6-20f3-430c-a4cb-39e5d4f88d6f",
+                "item_name": "EGFR (Exon 18-21) Mutation KALDx",
+                "__typename": "transactionTest"
+              }
+            ],
+            "userAnalisis": null,
+            "userIp": {
+              "id": "6ad013a7-cf0c-4c22-8bab-a579ecff7be9",
+              "profiles": [
+                {
+                  "fullname": "1st Approver",
+                  "__typename": "Profile"
+                }
+              ],
+              "signatures": [],
+              "__typename": "User"
+            },
+            "kalgenId": "A2502D0000097",
+            "patient": {
+              "id": "ffffe0e0-4acf-44da-bb2e-17ab42aa7985",
+              "name": "Sanny Gunawan",
+              "kalgen_id": null,
+              "gender": "P",
+              "address": "Kp. Cigombong No. 64 RT. 01/09, Desa Ciberang, Pacet Cianjur",
+              "birthdate": "2010-01-01",
+              "__typename": "patient"
+            },
+            "lab": null,
+            "customer": {
+              "id": "fff5b996-1180-4fb1-b0b4-e87efbcf8709",
+              "customer_name": "RSUD H. Abdul Manap",
+              "__typename": "customer"
+            },
+            "__typename": "transaction"
+          },
+          "createdAt": "2025-02-26T08:48:59.279Z",
+          "__typename": "pGex"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true,
+        "hasPreviousPage": false,
+        "__typename": "OffsetPageInfo"
+      },
+      "totalCount": 395,
+      "__typename": "PGexConnection"
+    }
+  }
+}

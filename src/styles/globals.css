@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+code,
+kbd,
+samp,
+pre {
+  font-family: inherit !important;
+}
+
+label {
+  @apply py-2;
+}
+
+/* Table Container */
+.table-container {
+  @apply relative w-full overflow-auto;
+}
+
+/* Table */
+.table-base {
+  @apply table table-auto border-separate border-spacing-0 w-full caption-bottom text-sm text-anarya-table min-w-[1200px] rounded-lg;
+}
+
+/* Table Header */
+.table-header {
+  @apply overflow-hidden; /* Agar border-radius di pojok atas diterapkan */
+}
+
+.table-header th {
+  @apply border-t border-b;
+}
+
+.table-header tr:first-child th:first-child {
+  @apply border-l rounded-tl-lg;
+}
+
+.table-header tr:first-child th:last-child {
+  @apply border-r rounded-tr-lg;
+}
+
+/* Table Body */
+.table-body td {
+  @apply border-b;
+}
+
+.table-body td:first-child {
+  @apply border-l;
+}
+
+.table-body td:last-child {
+  @apply border-r;
+}
+
+/* Table Footer */
+.table-footer {
+  @apply overflow-hidden bg-gray-100; /* Agar border-radius di pojok bawah diterapkan */
+}
+
+.table-footer td {
+  @apply border-b;
+}
+
+.table-footer tr:first-child td:first-child {
+  @apply border-l rounded-bl-lg;
+}
+
+.table-footer tr:first-child td:last-child {
+  @apply border-r rounded-br-lg;
+}
+
+/* Table Row */
+.table-row {
+  @apply border-b transition-colors overflow-hidden rounded-lg;
+}
+
+.table-row th:first-child,
+.table-row td:first-child {
+  @apply sticky left-0 backdrop-blur-sm;
+}
+
+.table-row td:first-child {
+  @apply max-lg:shadow-cell;
+}
+
+/* Table Head */
+.table-head {
+  @apply h-10 px-4 py-3 font-medium text-anarya-table;
+}
+
+/* Table Cell */
+.table-cell {
+  @apply px-4 py-3 h-28 align-middle break-words md:break-normal;
+}
+
+.table-cell[colspan] {
+  @apply h-14;
+}
